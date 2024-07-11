@@ -35,7 +35,7 @@
 ### Links
 
 - Solution URL: [GIT_URL](https://github.com/MR-M4N1/Notifications_page)
-- Live Site URL: [GIT_LIV]()
+- Live Site URL: [GIT_LIV](https://mr-m4n1.github.io/Notifications_page/)
 
 ## My process
 
