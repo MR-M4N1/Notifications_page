@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+body {
+    margin: 0;
+    padding: 0 16px;
+}
+
+span,
+a,
+button {
+    font-family: 'Plus Jakarta Sans';
+}
+
+:root {
+    --Red: hsl(1, 90%, 64%);
+    --Blue: hsl(219, 85%, 26%);
+    --White: hsl(0, 0%, 100%);
+    --Very-light-grayish-blue: hsl(210, 60%, 98%);
+    --Light-grayish-blue-1: hsl(211, 68%, 94%);
+    --Light-grayish-blue-2: hsl(205, 33%, 90%);
+    --Grayish-blue: hsl(219, 14%, 63%);
+    --Dark-grayish-blue: hsl(219, 12%, 42%);
+    --Very-dark-blue: hsl(224, 21%, 14%);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 0;
+}
+
+.Notification-Bar {
+    display: flex;
+    align-items: flex-end;
+}
+
+.pizza_pasta {
+    display: flex;
+}
+
+.Notification-Title {
+    color: var(--Very-dark-blue);
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.New-Msgs {
+    background-color: var(--Blue);
+    color: var(--White);
+    font-weight: 800;
+    padding-top: 1px;
+    padding-right: 11.5px;
+    padding-left: 11.5px;
+    padding-bottom: 3px;
+    font-size: 16px;
+    margin-left: 9px;
+    border-radius: 6px;
+    color: var(--Light-grayish-blue-1);
+}
+
+.AllRead {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--Dark-grayish-blue);
+}
+
+.AllRead:active {
+    color: blue;
+}
+
+
+
+.MessageBox {
+    display: flex;
+    width: 312px;
+    margin-bottom: 10px;
+    padding: 16px 15.5px;
+}
+
+.User_Pic {
+    width: 39px;
+    height: 39px;
+    margin-right: 14px;
+    align-items: flex-start;
+}
+
+.unread_boxes {
+    background-color: var(--Very-light-grayish-blue);
+    border-radius: 8px;
+}
+
+.User {
+    font-weight: 900;
+    font-size: 14px;
+}
+
+.User:active {
+    color: var(--Blue);
+}
+
+.Activity {
+    margin-left: 2px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--Dark-grayish-blue);
+}
+
+.BoldActivity {
+    font-weight: 800;
+    font-size: 14px;
+    margin-left: 2px;
+    color: var(--Dark-grayish-blue);
+}
+
+.User-Data {
+    line-height: 18px;
+}
+
+.Date {
+    display: block;
+    color: var(--Grayish-blue);
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 3px;
+}
+
+.Importend_Think {
+    font-weight: 800;
+    color: var(--Blue);
+    font-size: 15px;
+}
+
+.RedDot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: var(--Red);
+    border-radius: 50%;
+    margin-left: 2px;
+}
+
+.Special_MessageBox {
+    display: flex;
+    padding: 0 16px;
+    margin: 10px 0;
+    font-family: 'Plus Jakarta Sans';
+}
+
+.Text {
+    font-size: 14px;
+    border: 1px solid var(--Light-grayish-blue-2);
+    padding: 15px 25px 15px 15px;
+    margin: 15px 0;
+    font-weight: 500;
+    color: var(--Dark-grayish-blue);
+}
+
+.Froozen{
+    color: var(--Dark-grayish-blue);
+}
+
+.Froozen:active {
+    color: var(--Dark-grayish-blue);
+    background-color: var(--White);
+}
+
+.Froozen:visited {
+    background-color: var(--White);
+}
+
+.noSelect {
+    -webkit-tap-highlight-color: var(--Very-light-grayish-blue);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.noSelect:focus {
+    outline: none !important;
+}
+
+.image-chess {
+    width: 38px;
+    height: 38px;
+}
+
+.GovHooker {
+    padding-right: 9px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-shadow: 1px 1px 2px black;
+    text-align: center;
+    position: fixed;
+    bottom: 10px;
+    left: 25%;
+    right: 25%;
+    color: white;
+}
+
+.attribution a {
+    color: var(--Blue);
+    font-size: 13px;
+}
+
+@media screen and (min-width:1025px) and (max-width:1440px) {
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--Very-light-grayish-blue);
+        margin-top: 63px;
+        margin-bottom: 100px;
+    }
+
+    .Web-Page {
+        border-radius: 14px;
+        width: 730px;
+        background-color: var(--White);
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+
+    header {
+        padding: 33px 32px 30.9px 32px;
+        align-items: center;
+    }
+
+    .Notification-Bar {
+        align-items: center;
+
+    }
+
+    .Notification-Title {
+        font-size: 24px;
+    }
+
+    .New-Msgs {
+        margin-left: 12px;
+    }
+
+    .AllRead {
+        font-size: 16px;
+        margin-right: -1.3px;
+    }
+
+    .MessageBox {
+        width: 640px;
+        height: 47px;
+    }
+
+    .User_Pic {
+        width: 45px;
+        height: 45px;
+        margin-left: 5px;
+        margin-top: 2px;
+    }
+
+    .User {
+        font-size: 16px;
+
+    }
+
+    .Activity {
+        font-size: 16px;
+    }
+
+    .BoldActivity {
+        font-size: 16px;
+    }
+
+    .User-Data {
+        margin-top: 3px;
+        margin-left: 5px;
+        line-height: 20px;
+    }
+
+    .Importend_Think {
+        font-size: 17px;
+        font-size: 800;
+    }
+
+    .Date {
+        font-size: 16px;
+        /* margin-left: 5px; */
+    }
+
+    .Special_MessageBox {
+        width: 640px;
+    }
+
+    .Text {
+        width: 528px;
+        padding: 18px 18px;
+
+    }
+
+    .Froozen {
+        font-size: 16px;
+        color: var(--Dark-grayish-blue);
+    }
+
+    .Special_MessageBox_2 {
+        justify-content: space-between;
+    }
+
+    .image-chess {
+        padding-right: 7px;
+    }
+}
+
+@media screen and (min-width:376px) and (max-width:475px) {
+    .Special_MessageBox {
+        padding: 0 35px;
+    }
+}
